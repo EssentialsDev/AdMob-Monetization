@@ -126,7 +126,7 @@
 				TargetAttributes = {
 					4A6A1B0F1E2EC12900FC20C2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = XRS3YZR37M;
+						DevelopmentTeam = JKSR5823SA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -342,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = XRS3YZR37M;
+				DEVELOPMENT_TEAM = JKSR5823SA;
 				INFOPLIST_FILE = Ads123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.Ads123;
@@ -357,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = XRS3YZR37M;
+				DEVELOPMENT_TEAM = JKSR5823SA;
 				INFOPLIST_FILE = Ads123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.Ads123;
