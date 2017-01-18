@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D15F5A06614629179984E66 /* Pods_Ads123.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92468F878D9B17ED845D6C4E /* Pods_Ads123.framework */; };
 		4A6A1B141E2EC12A00FC20C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A1B131E2EC12A00FC20C2 /* AppDelegate.swift */; };
 		4A6A1B161E2EC12A00FC20C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A1B151E2EC12A00FC20C2 /* ViewController.swift */; };
 		4A6A1B191E2EC12A00FC20C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6A1B171E2EC12A00FC20C2 /* Main.storyboard */; };
 		4A6A1B1B1E2EC12A00FC20C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6A1B1A1E2EC12A00FC20C2 /* Assets.xcassets */; };
 		4A6A1B1E1E2EC12A00FC20C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6A1B1C1E2EC12A00FC20C2 /* LaunchScreen.storyboard */; };
+		4A6A1B281E2EC2FF00FC20C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A6A1B271E2EC2FF00FC20C2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		4A6A1B1A1E2EC12A00FC20C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A6A1B1D1E2EC12A00FC20C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A6A1B1F1E2EC12A00FC20C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6A1B271E2EC2FF00FC20C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53F16FEE1BD18F30DA5B7F98 /* Pods-Ads123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads123.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ads123/Pods-Ads123.release.xcconfig"; sourceTree = "<group>"; };
+		92468F878D9B17ED845D6C4E /* Pods_Ads123.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ads123.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BF7C0EAF1D9D0FF7AAEAD8 /* Pods-Ads123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads123.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ads123/Pods-Ads123.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D15F5A06614629179984E66 /* Pods_Ads123.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C659534D41077DB975D3F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92468F878D9B17ED845D6C4E /* Pods_Ads123.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A6A1B071E2EC12800FC20C2 = {
 			isa = PBXGroup;
 			children = (
 				4A6A1B121E2EC12A00FC20C2 /* Ads123 */,
 				4A6A1B111E2EC12A00FC20C2 /* Products */,
+				E73F887175D4CEF4FB13C841 /* Pods */,
+				0C659534D41077DB975D3F5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,18 @@
 				4A6A1B1A1E2EC12A00FC20C2 /* Assets.xcassets */,
 				4A6A1B1C1E2EC12A00FC20C2 /* LaunchScreen.storyboard */,
 				4A6A1B1F1E2EC12A00FC20C2 /* Info.plist */,
+				4A6A1B271E2EC2FF00FC20C2 /* GoogleService-Info.plist */,
 			);
 			path = Ads123;
+			sourceTree = "<group>";
+		};
+		E73F887175D4CEF4FB13C841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF7C0EAF1D9D0FF7AAEAD8 /* Pods-Ads123.debug.xcconfig */,
+				53F16FEE1BD18F30DA5B7F98 /* Pods-Ads123.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A6A1B221E2EC12B00FC20C2 /* Build configuration list for PBXNativeTarget "Ads123" */;
 			buildPhases = (
+				8680D2957BF8E470C771CD3A /* [CP] Check Pods Manifest.lock */,
 				4A6A1B0C1E2EC12900FC20C2 /* Sources */,
 				4A6A1B0D1E2EC12900FC20C2 /* Frameworks */,
 				4A6A1B0E1E2EC12900FC20C2 /* Resources */,
+				84048A749F1E357FD2A87B95 /* [CP] Embed Pods Frameworks */,
+				BC2AEC4787AD32482FCFF2E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +126,7 @@
 				TargetAttributes = {
 					4A6A1B0F1E2EC12900FC20C2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = JKSR5823SA;
+						DevelopmentTeam = XRS3YZR37M;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6A1B1E1E2EC12A00FC20C2 /* LaunchScreen.storyboard in Resources */,
+				4A6A1B281E2EC2FF00FC20C2 /* GoogleService-Info.plist in Resources */,
 				4A6A1B1B1E2EC12A00FC20C2 /* Assets.xcassets in Resources */,
 				4A6A1B191E2EC12A00FC20C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84048A749F1E357FD2A87B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ads123/Pods-Ads123-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8680D2957BF8E470C771CD3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2AEC4787AD32482FCFF2E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ads123/Pods-Ads123-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A6A1B0C1E2EC12900FC20C2 /* Sources */ = {
@@ -259,9 +338,11 @@
 		};
 		4A6A1B231E2EC12B00FC20C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BF7C0EAF1D9D0FF7AAEAD8 /* Pods-Ads123.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JKSR5823SA;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XRS3YZR37M;
 				INFOPLIST_FILE = Ads123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.Ads123;
@@ -272,9 +353,11 @@
 		};
 		4A6A1B241E2EC12B00FC20C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F16FEE1BD18F30DA5B7F98 /* Pods-Ads123.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JKSR5823SA;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XRS3YZR37M;
 				INFOPLIST_FILE = Ads123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.Ads123;
@@ -302,6 +385,7 @@
 				4A6A1B241E2EC12B00FC20C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
